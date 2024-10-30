@@ -1,0 +1,21 @@
+.bobsnav_container {
+	display: block;
+	clear: both;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+.bobsnav_container .bobsnav_alignleft a {
+	float: left;
+	padding-left: 20px;
+	margin-right: 5px;
+	background: url("bobsnav_prev.png") no-repeat left center;
+	behaviour: url("iepngfix.htc");
+}
+.bobsnav_container .bobsnav_alignright a {
+	float: right;
+	padding-right: 20px;
+	margin-left: 5px;
+	background: url("bobsnav_next.png") no-repeat right center;
+	behaviour: url("iepngfix.htc");
+}
